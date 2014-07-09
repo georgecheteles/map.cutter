@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* SITE */
+
+h1{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.map_base{
+	margin:30px auto auto auto;
+	width:598px; 
+	height:286px; 
+	display:block;
+	background-image:url(image.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	position:relative;
+	cursor: crosshair;	
+}
+.dot{
+	width:2px;
+	height:2px;
+	background:red;
+}
+.line
+{
+	position: absolute;
+	height: 0px;
+	border-width: 1px 0px 0px 0px;
+	border-style: solid;
+	border-color: #99aadd;
+}
+.custom_input{
+	border:1px dotted gray;
+	border-radius:3px;
+	width:40px;
+	outline:none;
+	text-align:center;
+	margin-right:10px;
+}
+#header{
+	font-size:14px;
+	width:900px;
+	margin:10px auto auto auto;
+	height:35px;
+}
+#content{
+	border:1px solid #ccc;
+	width:900px;
+	margin:10px auto;
+	padding:10px;
+	border-radius:3px;
+	box-shadow: 5px 5px 20px #ccc;
+}
+#status{
+	text-align:center;
+}
+#coords{
+	border:1px solid #ccc;
+	border-radius:3px;
+	width:300px;
+	height:100px;
+	margin-top:10px;
+	margin-bottom:10px;
+	resize: none;
+	display:block;
+	background:rgb(250, 235, 231);
+	outline:none;
+	padding:5px;
+}
+#coords[readonly=readonly]{
+	background:rgb(255, 255, 255);
+}
+.clear{
+	clear:both;
+}
+#header .toRight{
+	float:right;
+	width:100px;
+	text-align:right;
+}
+.settingsBtn{
+	width:70px;
+	height:30px;
+	font-size:12px;
+}
+.settings{
+	float:right;
+	font-size:12px;
+	display:none;
+	width:800px;
+	text-align:right;
+}
+.saveBtn{
+	width:50px;
+	height:30px;
+	font-size:12px;
+}
+.resetBtn{
+	width:80px;
+	height:30px;
+}
+.importBtn{
+	width:80px;
+	height:30px;
+}
+#footer{
+	font-size:12px;
+	text-align:right;
+}

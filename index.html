@@ -1,0 +1,53 @@
+<!--
+ _       __                          __                                 _     
+| |     / /__        _________  ____/ /__        ____ ___  ____ _____ _(_)____
+| | /| / / _ \______/ ___/ __ \/ __  / _ \______/ __ `__ \/ __ `/ __ `/ / ___/
+| |/ |/ /  __/_____/ /__/ /_/ / /_/ /  __/_____/ / / / / / /_/ / /_/ / / /__  
+|__/|__/\___/      \___/\____/\__,_/\___/     /_/ /_/ /_/\__,_/\__, /_/\___/  
+                                                              /____/          
+MapCutter(1.0.1) is a small tool created by George Cheteles.
+Find me at:
+	orbideintuneric@gmail.com
+	https://github.com/georgecheteles
+Last modification on this file: 09 July 2014.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Map Cutter 1.0.1</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="style.css" media="screen"/>
+		<script type="text/javascript" src="jquery-1.11.1.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="site.js" charset="UTF-8"></script>
+	</head>
+	
+	<body >
+		<div id="header">
+			<div class="toRight">
+				<button class="settingsBtn">Settings</button>
+			</div>
+			<div class="settings">
+				Width: <input id="widthp" type="text" class="custom_input" value="598" />
+				Height: <input id="heightp" type="text" class="custom_input" value="286"/>
+				Position-Left: <input id="leftp" type="text" class="custom_input" value="0"/>
+				Position-Top: <input id="topp" type="text" class="custom_input" value="0"/>
+			</div>	
+			<div class="clear"></div>
+		</div>
+		<div id="content">
+			<h1>Map Cutter 1.0.1</h1>
+			<div id="map_base" class="map_base"></div>
+			<p id="status">Waiting...</p>
+			<div align="center">
+				<textarea id="coords" readonly="readonly"></textarea>
+				<button class="resetBtn">Reset</button>
+				<button class="importBtn">Import</button>
+			</div>
+			<div id="footer">
+				<p>Tip: Use CTRL + Z to "Undo".</p>
+				<p>(c) 2014 George Cheteles</p>
+				<p><a href="mailto:orbideintuneric@gmail.com">orbideintuneric@gmail.com</a></p>
+			</div>
+		</div>
+	</body>
+</html>
