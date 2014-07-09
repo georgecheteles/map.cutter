@@ -57,7 +57,7 @@ h1{
 }
 
 .map_base{
-	margin:30px auto auto auto;
+	margin:30px auto 20px auto;
 	width:598px; 
 	height:286px; 
 	display:block;
@@ -65,7 +65,8 @@ h1{
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	position:relative;
-	cursor: crosshair;	
+	cursor: crosshair;
+	box-shadow: 0px 0px 20px #80CCE6;
 }
 .dot{
 	width:2px;
